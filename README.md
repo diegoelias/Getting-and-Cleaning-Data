@@ -38,7 +38,7 @@ You should create one R script called `run_analysis.R` that does the following.
 
 ### Data Analysis Explanation
 
-#### For 1st tiny data set (tidyDataSet.txt):
+#### For 1st tiny data set `tidyDataSet.txt`:
 
 - Read data sets and combine them
 - Read subjects and combine them
@@ -53,7 +53,7 @@ You should create one R script called `run_analysis.R` that does the following.
 - Merge data, subjects, and labels to single tiny data set
 - Write tiny data set to file
 
-#### For 2nd tiny data set: average of measurement for activity and subject (tidyDataSet2.txt)
+#### For 2nd tiny data set: average of measurement for activity and subject `tidyDataSet2.txt`
 
 - Prepare empty data set of appropriate length for 
 - Loop through subjects, then subloop through activities
