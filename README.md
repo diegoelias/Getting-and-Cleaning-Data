@@ -36,61 +36,9 @@ You should create one R script called `run_analysis.R` that does the following.
 5. Creates a second, independent tidy data set with the average of each
    variable for each activity and each subject. 
 
-Good luck!
-
-
-### Evaluation Checklist
-
-#### Tidy Data Set
-
-_From Question:_ Please upload a tidy data set according to the instructions
-in the project description. Please upload your data set as a separate file (do
-not cut and paste a dataset directly into the text box, as this may cause
-errors saving your submission). 
-
-_From Evaluation:_ Has the student submitted a tidy data set? 
-
-#### Second Data Set
-
-_From Question:_ Creates a second, independent tidy data set with the average
-of each variable for each activity and each subject.
-
-#### Github Repo with Required Scripts
-
-_From Question:_ Please submit a link to a Github repo with the code for
-performing your analysis. The code should have a file `run_analysis.R` in the
-main directory that can be run as long as the Samsung data is in your working
-directory.  The output should be the tidy data set you submitted for part 1.
-
-_From Evaluation:_ Did the student submit a Github repo with the required
-scripts?
-
-#### Code Book
-
-_From Overview:_ A code book that describes the variables, the data, and any
-transformations or work that you performed to clean up the data called
-`CodeBook.md`.
-
-_From Evaluation:_ Please submit a code book that modifies and updates the
-codebooks available to you with the data to indicate all the variables and
-summaries you calculated, along with units, and any other relevant information.
-
-#### README
-
-_From Overview:_ You should also include a `README.md` in the repo with your
-scripts. This repo explains how all of the scripts work and how they are
-connected.
-
-_From Question:_ You should include a `README.md` in the repo describing how
-the script works.
-
-_From Evaluation:_ I was able to follow the README in the directory that
-explained what the analysis files did. 
-
-
 ### Data Analysis Explanation
 
-#### For 1st tiny data set:
+#### For 1st tiny data set (tidyDataSet.txt):
 
 - Read data sets and combine them
 - Read subjects and combine them
@@ -105,7 +53,7 @@ explained what the analysis files did.
 - Merge data, subjects, and labels to single tiny data set
 - Write tiny data set to file
 
-#### For 2nd tiny data set: average of measurement for activity and subject
+#### For 2nd tiny data set: average of measurement for activity and subject (tidyDataSet2.txt)
 
 - Prepare empty data set of appropriate length for 
 - Loop through subjects, then subloop through activities
